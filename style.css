@@ -70,7 +70,10 @@ footer {
   padding: 0 1rem;
 
   @media screen and (min-width: 768px) {
+    margin-bottom: 2rem;
     flex-direction: row;
+    gap: 2rem;
+    padding: 0 2rem;
   }
 }
 
@@ -80,6 +83,7 @@ footer {
   flex: 1;
   aspect-ratio: 1;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .svg-stroke {
